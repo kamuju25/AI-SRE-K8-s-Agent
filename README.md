@@ -18,27 +18,6 @@ AI-powered Kubernetes troubleshooting platform is to be built that enables:
 
 <img width="501" height="737" alt="image" src="https://github.com/user-attachments/assets/f0d9c0b7-9068-4469-95e1-f55ba3aaf441" />
 
+## Example
 
-
-
-
-```bash
-You
- │
- │  "Build me a todo app with login"
- ▼
-Claude Code (AI Agent)
- │
- │  understands your request
- │  writes the code
- │  runs InsForge CLI commands
- ▼
-InsForge
- │
- │  receives CLI commands
- │  spins up database
- │  sets up auth
- │  deploys the app
- ▼
-Your App is Live!
-```
+<img width="492" height="456" alt="image" src="https://github.com/user-attachments/assets/3ee76f55-9b61-411b-b9b1-9bb2cf142a2b" />
