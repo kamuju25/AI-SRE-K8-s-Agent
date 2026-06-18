@@ -21,3 +21,16 @@ AI-powered Kubernetes troubleshooting platform is to be built that enables:
 ## Example
 
 <img width="492" height="456" alt="image" src="https://github.com/user-attachments/assets/3ee76f55-9b61-411b-b9b1-9bb2cf142a2b" />
+
+Supported Kubernetes problems
+
+  - Pending pods are detected and investigated
+  - CrashLoopBackOff failures are identified and diagnosed
+  - ImagePullBackOff errors are caught and analyzed
+  - OOMKilled events are recognized and reported
+  - Resource exhaustion is monitored and surfaced
+  - Deployment rollout failures are inspected and traced
+  - Service selector mismatches are discovered and flagged
+  - DNS resolution problems are uncovered and examined
+  - Readiness/Liveness probe failures are evaluated and explained
+  - Networking issues are investigated and diagnosed
