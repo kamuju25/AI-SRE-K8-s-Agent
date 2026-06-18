@@ -14,6 +14,12 @@ AI-powered Kubernetes troubleshooting platform is to be built that enables:
 
 <img width="476" height="711" alt="image" src="https://github.com/user-attachments/assets/8b1a762e-5656-423d-81f0-8b5eacb9a6c1" />
 
+## Workflow end-to-end
+
+<img width="501" height="737" alt="image" src="https://github.com/user-attachments/assets/f0d9c0b7-9068-4469-95e1-f55ba3aaf441" />
+
+
+
 
 
 ```bash
