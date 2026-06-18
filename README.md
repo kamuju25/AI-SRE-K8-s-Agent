@@ -12,7 +12,8 @@ AI-powered Kubernetes troubleshooting platform is to be built that enables:
 
 ## High Level Design as a Visual Diagram
 
-<img width="527" height="742" alt="image" src="https://github.com/user-attachments/assets/f65858eb-7465-435e-9aae-94b032c1ed2a" />
+<img width="476" height="711" alt="image" src="https://github.com/user-attachments/assets/8b1a762e-5656-423d-81f0-8b5eacb9a6c1" />
+
 
 
 ```bash
