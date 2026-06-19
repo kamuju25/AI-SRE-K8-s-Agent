@@ -14,4 +14,6 @@ While Cursor acts as the AI-powered workspace where you type your instructions a
 
 ## Architecture
 
-<img width="681" height="506" alt="image" src="https://github.com/user-attachments/assets/2aa09909-3768-4e01-94bb-0177c18be051" />
+<img width="868" height="562" alt="image" src="https://github.com/user-attachments/assets/5a619106-1f59-4f7a-90ba-3e360aedd7ef" />
+
+User → Frontend → Auth → FastAPI → (queries) → Kubernetes → (returns pod data: logs, network, deploy events, services, policies) → back to FastAPI → FastAPI sends it to LLM (InsForge/OpenRouter) → LLM summarizes → writes summary to Database (InsForge) → summary returned to User
