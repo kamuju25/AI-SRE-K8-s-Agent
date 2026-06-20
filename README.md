@@ -1,3 +1,5 @@
+<img width="1440" height="1422" alt="image" src="https://github.com/user-attachments/assets/a5ae763b-f799-4415-8495-74cce4bc3271" />
+
 # KubeAI (K8's + AI) - troubleshooting Agent - Architecture
 
 ## Goal
