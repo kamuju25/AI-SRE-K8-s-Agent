@@ -1,4 +1,4 @@
-<img width="1440" height="1370" alt="image" src="https://github.com/user-attachments/assets/e35c568c-ac8f-4aea-b8ac-cd463015913a" />
+<img width="1440" height="1370" alt="image" src="https://github.com/user-attachments/assets/db09d8d6-5a44-406c-add1-7d920cc8ed65" />
 
 # KubeAI (K8's + AI) - troubleshooting Agent - Architecture
 
