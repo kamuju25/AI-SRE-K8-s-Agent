@@ -1,4 +1,6 @@
-# OpenRouter / LLM Key Setup
+# Prerequisites:
+
+## OpenRouter / LLM Key Setup
 
 - Why OpenRouter: Calling OpenAI or Anthropic API keys directly would be considerably more expensive. OpenRouter is multiple times cheaper, and since an Insforge account is already in use for the database, storage, and auth, it makes sense to also use Insforge's OpenRouter access rather than managing a separate provider.
 - Where the key comes from: The key isn't generated separately — it comes from Insforge's Model Gateway. On the Insforge dashboard, there's a "Model Gateway" section with an option to activate/start using the OpenRouter key.
@@ -6,13 +8,11 @@
 - How it's invoked in the build prompts: The AI reasoning prompt explicitly instructs the coding assistant to route LLM calls through OpenRouter via the Insforge key, rather than hardcoding a direct OpenAI/Anthropic key.
 - Model selection note: No specific model was hardcoded, so OpenRouter automatically selects one. This affects the confidence scores returned by the agent (e.g., 75–80%) — hardcoding a stronger reasoning model would likely produce higher confidence scores.
 
-# Prerequisites:
-
 - Docker running locally
 - A local Kubernetes cluster created via Kind
 - An Insforge account/project set up, with the AI coding assistant (e.g., Cursor) connected via Insforge's MCP server
 
-# Build sequence (each done via a structured prompt (using prompts in prompts-to-implement-k8's-agent folder) to the cursor AI coding assistant):
+## Build sequence (each done via a structured prompt (using prompts in prompts-to-implement-k8's-agent folder) to the cursor AI coding assistant):
 
 
 1. Project setup — scaffolds the modular folder structure (separate backend/frontend folders, Docker Compose file).
