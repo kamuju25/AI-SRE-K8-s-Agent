@@ -18,7 +18,7 @@ While Cursor acts as the AI-powered workspace where you type your instructions a
 
 User → Frontend → Auth → FastAPI → (queries) → Kubernetes → (returns pod data: logs, network, deploy events, services, policies) → back to FastAPI → FastAPI sends it to LLM (InsForge/OpenRouter) → LLM summarizes → writes summary to Database (InsForge) → summary returned to User
 
-# Prompt - To set up project
+# 01-Prompt - To set up project
 
 ## Context
 
