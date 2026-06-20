@@ -12,7 +12,23 @@ AI-powered Kubernetes troubleshooting platform is to be built that enables:
 
 ## High Level Design as a Visual Diagram
 
-<img width="476" height="711" alt="image" src="https://github.com/user-attachments/assets/8b1a762e-5656-423d-81f0-8b5eacb9a6c1" />
+# Tech Stack
+
+- Kubernetes cluster -> kind
+- Frontend -> react
+- API web framework - Python or FastAPI
+- DB, Authentication, authorization, deployment, LLM integration -> InsForge
+- Writing code - cursor
+
+What is Cursor and InsForge?
+
+Cursor and InsForge are next-generation, AI-driven software development tools that are used together to build full-stack web applications entirely through natural language prompts.
+
+While Cursor acts as the AI-powered workspace where you type your instructions and generate the code, InsForge acts as the "agent-native" backend infrastructure that automatically spins up databases, user logins, and servers to support that code.
+
+## Architecture
+
+<img width="681" height="506" alt="Screenshot 2026-06-19 184703" src="https://github.com/user-attachments/assets/b10efedf-b123-402b-87c7-c45cd19520b0" />
 
 ## Workflow end-to-end
 
